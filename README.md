@@ -39,6 +39,12 @@ An IoT-based smart system for monitoring and managing your terrace garden using 
 | Water Pump       | D0 + D1 / GPIO16 & 5|
 
 ---
+## IoT Layers
+1.	Perception Layer: Sensors collect environmental data on temperature, humidity, soil moisture, and air quality.
+2.	Network Layer: NODEMCU facilitates Wi-Fi-based data transfer to the cloud.
+3.	Processing Layer: Data is filtered, calibrated, and formatted on the NODEMCU for reliable cloud transmission.
+4.	Application Layer: Web-server, stores, and visualizes the data, providing a user-friendly interface for real-time monitoring.
+
 
 ##  Web Interface
 
@@ -86,10 +92,6 @@ HTTP server started
 
 Visit http://192.168.1.10 in your browser to view the dashboard.
 
-Web Dashboard Preview
-
-<img src="https://pic.surf/g7" alt="Dashboard Preview" width="500" />
-
 Getting Started
 
 Flash the code to your NodeMCU using Arduino IDE.
@@ -108,7 +110,7 @@ terrace-garden-monitor/
 
 ├── README.md                # Project documentation
 
-└── diagram.png       
+└── diagrams.png       
 
 Dependencies
 
