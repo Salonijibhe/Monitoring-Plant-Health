@@ -108,7 +108,7 @@ terrace-garden-monitor/
 
 ├── README.md                # Project documentation
 
-└── wiring_diagram.png       # (Optional) Visual wiring diagram
+└── diagram.png       
 
 Dependencies
 
@@ -118,8 +118,5 @@ ESP8266WiFi
 
 ESP8266WebServer
 
-
-
-![image](https://github.com/user-attachments/assets/e5fec02a-a1c2-4f82-a089-15a4f2ac015a)
 
 
